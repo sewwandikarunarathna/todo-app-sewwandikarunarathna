@@ -155,9 +155,10 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #4e73df;
+  color: #BC006D;
   text-decoration: none;
   background-color: transparent;
+  
 }
 a:hover {
   color: #224abe;
@@ -7034,7 +7035,7 @@ line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
 color: #000000;
-width: 45px;
+width: 100px;
 height: 24px;
 padding: 0, 16px, 0px, 16px;
 }
@@ -7079,6 +7080,13 @@ text-align: left;
 .mb-00 a{
   color: #BC006D;
   text-decoration: underline;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0 0 0 16px;
 }
 .ml-0,
 .mx-0 {

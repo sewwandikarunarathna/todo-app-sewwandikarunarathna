@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 const Header = () => {
-    const [style, setStyle] = useState();
+  const [style, setStyle] = useState();
 
   const changeToggle = () => {
     if (
@@ -17,77 +17,66 @@ const Header = () => {
 
   return (
     <>
-                {/* <!-- Content Wrapper --> */}
-                <div id="content-wrapper" className="d-flex flex-column">
-            {/* <!-- Main Content --> */}
-            <div id="content">
-              {/* <!-- Topbar --> */}
-              <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-                {/* <!-- Sidebar Toggle (Topbar) --> */}
-                <button
-                  id="sidebarToggleTop"
-                  className="btn btn-link d-md-none rounded-circle mr-3"
-                  onClick={changeToggle}
-                >
-                  <i className="fa fa-bars"></i>
-                </button>
+      <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        {/* <!-- Sidebar Toggle (Topbar) --> */}
+        <button
+          id="sidebarToggleTop"
+          className="btn btn-link d-md-none rounded-circle mr-3"
+          onClick={changeToggle}
+        >
+          <i className="fa fa-bars"></i>
+        </button>
 
-                {/* <!-- Page Heading --> */}
-                <div className="d-sm-flex align-items-center justify-content-between mb-4">
-                  <h4 className="h3 mb-0">Dashboard</h4>
-                </div>
+        {/* <!-- Page Heading --> */}
+        <div className="d-sm-flex align-items-center justify-content-between mb-4">
+          <h4 className="h3 mb-0">Dashboard</h4>
+        </div>
 
-                {/* <!-- Topbar Navbar --> */}
-                <ul className="navbar-nav ml-auto">
-                 
-                  {/* <!-- Nav Item - Alerts --> */}
-                  <li className="nav-item dropdown no-arrow mx-1">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      id="alertsDropdown"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <img
-                        className="rounded-circle"
-                        src="assets/Notifications.svg"
-                        alt="..."
-                      />
-                    </a>
-                    {/* <!-- Dropdown - Alerts --> */}
-                  </li>
+        {/* <!-- Topbar Navbar --> */}
+        <ul className="navbar-nav ml-auto">
+          {/* <!-- Nav Item - Alerts --> */}
+          <li className="nav-item dropdown no-arrow mx-1">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              id="alertsDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <img
+                className="rounded-circle"
+                src="assets/Notifications.svg"
+                alt="..."
+              />
+            </a>
+          </li>
 
-                  {/* <!-- Nav Item - User Information --> */}
-                  <li className="nav-item dropdown no-arrow">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      id="userDropdown"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <img
-                        className="img-profile rounded-circle"
-                        src="assets/Profile.svg"
-                      />
-                      <img
-                        className="img-profile rounded-circle"
-                        src="assets/Chevron-down.svg"
-                      />
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-              {/* <!-- End of Topbar --> */}
-              </div>
-              </div>
+          <li className="nav-item dropdown no-arrow">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              id="userDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <img
+                className="img-profile rounded-circle"
+                src="assets/Profile.svg"
+              />
+              <img
+                className="img-profile rounded-circle"
+                src="assets/Chevron-down.svg"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
     </>
-  )
-}
+  );
+};
 
 export default Header;
