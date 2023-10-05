@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Screenshot
 ![ss](https://github.com/sewwandikarunarathna/todo-app-sewwandikarunarathna/assets/43203201/56a32ba1-0bf9-46ed-ad51-692cadcf3c00)
